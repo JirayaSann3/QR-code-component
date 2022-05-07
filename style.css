@@ -1,0 +1,49 @@
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Roboto Condensed', sans-serif;
+    align-items: center;
+    overflow: hidden;
+}
+
+.qrcode{
+    height: 100%;
+    width: 350px;
+    border-radius: 7px;
+}
+
+h1{
+font-size: 25px;
+font-weight: 800;
+ margin: 10;
+ padding-left: 20px ;
+ padding-right: 20px;
+ color: hsl(218, 44%, 22%);
+}
+
+p{
+    font-weight:400;
+    font-size: 20px;
+    margin-bottom: 20;
+    padding-left: 20px ;
+    padding-right: 20px;
+    color:hsl(220, 15%, 55%)s ;
+}
+
+.es {
+    display: grid;
+    height: 650px;
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    align-content: center;
+    justify-items: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+.fundo{
+    display: grid;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
